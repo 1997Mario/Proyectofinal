@@ -45,7 +45,7 @@ public class Adapter_Generalidades  extends BaseAdapter {
             v=View.inflate(activity, R.layout.template_volcanes, null);
         }
         Generalidades p= data.get(position);
-        TextView titulo=(TextView) v.findViewById(R.id.titulo);
+        TextView titulo=(TextView) v.findViewById(R.id.nombrevolcan);
         TextView descripcion=(TextView) v.findViewById(R.id.descripcion);
         ImageView img=(ImageView) v.findViewById(R.id.img);
 
